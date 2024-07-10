@@ -33,7 +33,7 @@ namespace ActionApp
 			{
 				var factory = new ConnectionFactory()
 				{
-					HostName = "localhost",
+					HostName = "my rabbitMQ",
 					Port = 5672, // RabbitMQ port
 					UserName = "guest", // RabbitMQ username
 					Password = "guest" // RabbitMQ password

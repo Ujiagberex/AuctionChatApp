@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿
+using Microsoft.AspNetCore.SignalR;
 
 namespace ActionApp.Hubs
 {
@@ -6,7 +7,7 @@ namespace ActionApp.Hubs
 	{
 		public async Task SendMessage(string user, string message)
 		{
-			Clients.All.SendAsync("ReceiveMessage", user, message);
+			Clients.All.SendAsync("ReceiveMessage", user, message, DateTime.Now);
 
 		}
 	}
