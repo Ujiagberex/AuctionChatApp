@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzRKW/Lij73/jy8LugbkpV30W68P+q8vubrlKM5/R6iRI7vRfYqwL1+TBPogrS4l8zTGeaegbJL+1TWn0ALvHA==",
+  "dgSpecHash": "ZTYlFelvGL/zXyDcS9QhtznD1rDTkaal8j84/2ti7iiXxYIlQk6Vfp57fPKTke/DnJmWsmlfxPzG6uNFmTx8ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Documents\\Post-Coding\\ActionApp\\ActionApp.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\Post-Coding\\AuctionApp\\ActionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

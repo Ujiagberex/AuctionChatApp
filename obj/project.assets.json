@@ -5807,11 +5807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\Post-Coding\\ActionApp\\ActionApp.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Post-Coding\\AuctionApp\\ActionApp.csproj",
       "projectName": "ActionApp",
-      "projectPath": "C:\\Users\\HP\\Documents\\Post-Coding\\ActionApp\\ActionApp.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\Post-Coding\\AuctionApp\\ActionApp.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\Post-Coding\\ActionApp\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\Post-Coding\\AuctionApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

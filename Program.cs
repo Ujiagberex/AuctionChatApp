@@ -4,7 +4,7 @@ using ActionApp.Interfaces;
 using ActionApp.Repository;
 using ActionApp.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+using ActionApp.Hubs;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
 
@@ -21,6 +21,7 @@ namespace ActionApp
 			builder.Services.AddControllers();
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
+			builder.Services.AddSignalR();
 
 			//Register DbContext that uses SQL Server as the RDBMS
 			builder.Services.AddDbContext<AuctionAppDbContext>(options =>
@@ -90,6 +91,7 @@ namespace ActionApp
 
 
 			app.MapControllers();
+			app.MapHub < ChatHub > ("/Chathub");
 
 			app.Run();
 		}
